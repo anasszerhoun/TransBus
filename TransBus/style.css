@@ -23,10 +23,10 @@
                             margin-right: auto;
                             margin-left: 8%;
                             margin-top: 8%;
-                            border-radius: 10px;
-                            background-color: rgba(38, 192, 174, 0.486);
-                            border-radius: 10px;
+                            background-color: rgba(17, 0, 255, 0.128);
                             padding: 1%;
+                            border-radius: 3px;
+                            box-shadow: 4px 5px 10px rgb(0, 0, 0);
                         }
                         
                         .center {
@@ -129,4 +129,8 @@
                         
                         .btn {
                             margin: auto;
+                        }
+                        
+                        .card {
+                            box-shadow: 1px 1px 6px black;
                         }

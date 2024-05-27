@@ -25,7 +25,7 @@
                             <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item mr-5 pr-3">
-                            <a class="nav-link" href="#">Destinations</a>
+                            <a class="nav-link" href="">Destinations</a>
                         </li>
                         <li class="nav-item  mr-5 pr-3">
                             <a class="nav-link" href="#" id="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -43,21 +43,21 @@
 
         <div class="center">
             <div class="form">
-                <form>
+                <form method="post" onsubmit="redirectToPage(event)">
                     <div class="mb-3">
                         <input type="text" class="form-control" id="" aria-describedby="emailHelp" placeholder="Selectionner ville de depart">
                     </div>
                     <div class="mb-3">
-                        <input type="text" class="form-control col-" id="" aria-describedby="emailHelp" placeholder="Selectionner ville d'arrivee">
+                        <input type="text" class="form-control " id="" aria-describedby="emailHelp" placeholder="Selectionner ville d'arrivee">
                     </div>
-                    <div class="mb-3 row container justify-content-between">
-                        <input type="date" style="font-size:1rem;width: 10rem;" class="form-control col-6" id="" placeholder="Date">
-                        <input type="date" style="font-size:1rem;width: 12rem;" class="form-control col-6 " id="" placeholder="Date">
+                    <div class="mb-3 row container justify-content-between w-100 ">
+                        <input type="date" style="font-size:1rem;width: 10rem;" class="form-control w-50" id="" placeholder="Date">
+                        <input type="date" style="font-size:1rem;width: 12rem;" class="form-control col-6  w-50" id="" placeholder="Date">
                     </div>
                     <div class="mb-3 ">
                         <input type="number" name="quantity" id="quantity" class="form-control col-12 ">
                     </div>
-                    <button type=" submit " class="btn btn-warning" style="margin-left: 23%;">Rechercher</button>
+                    <button type="submit" class="btn btn-warning" style="margin-left: 23%;">Rechercher</button>
                 </form>
             </div>
 
@@ -92,10 +92,10 @@
     </div>
     <div class="plans d-flex justify-content-center ">
         <div class="col-lg-3 p-1 col-md-6 col-12 mr-5 mr-2 ">
-            <div class="card " style="height: 95vh;background-color:rgb(209, 206, 197); ">
-                <img src="R.jpeg " class="card-img-top " alt="... ">
+            <div class="card" style="height: 95vh;background-color:rgb(209, 206, 197); ">
+                <img src="469963-Hassan-Ii-Mosque.jpg" class="card-img-top " style="height:31vh ;" alt="... ">
                 <div class="card-body ">
-                    <h5 class="card-titre ">OUJDA - CASA
+                    <h5 class="card-titre ">TETOUAN - CASA
                     </h5>
                     <p class="card-text pt-5 pb-5 ">Bénéficiez d’un tarif exceptionnel et profitez du paysage et de la culture des montagnes de l'Atlas! </p>
                 </div>
@@ -237,6 +237,7 @@
             <i class="fa-solid fa-phone">  0534566713</i>
         </div>
     </div>
+    <script src="main.js"></script>
 </body>
 
 </html>
