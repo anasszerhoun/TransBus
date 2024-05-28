@@ -45,13 +45,20 @@
             <div class="form">
                 <form method="post" onsubmit="redirectToPage(event)">
                     <div class="mb-3">
-                        <input type="text" class="form-control" id="" aria-describedby="emailHelp" placeholder="Selectionner ville de depart">
+                        <input list="villes" type="text" class="form-control" id="" aria-describedby="emailHelp" placeholder="Selectionner ville de depart" required>
+                        <datalist id="villes">
+                            <option value="Casablanca">
+                            <option value="Agadir">
+                            <option value="Tanger">
+                            <option value="Marrakech">
+                            <option value="Khouribga">
+                        </datalist>
                     </div>
                     <div class="mb-3">
-                        <input type="text" class="form-control " id="" aria-describedby="emailHelp" placeholder="Selectionner ville d'arrivee">
+                        <input list="villes" type="text" class="form-control " id="" aria-describedby="emailHelp" placeholder="Selectionner ville d'arrivee" required>
                     </div>
                     <div class="mb-3 row container justify-content-between w-100 ">
-                        <input type="date" style="font-size:1rem;width: 10rem;" class="form-control w-50" id="" placeholder="Date">
+                        <input type="date" style="font-size:1rem;width: 10rem;" class="form-control w-50" id="" placeholder="Date" required>
                         <input type="date" style="font-size:1rem;width: 12rem;" class="form-control col-6  w-50" id="" placeholder="Date">
                     </div>
                     <div class="mb-3 ">

@@ -43,8 +43,15 @@
         <div class="container">
             <div class="formulaire">
                 <form action="">
-                    <input type="text" name="" id="" placeholder="Depart">
-                    <input type="text" name="" id="" placeholder="Arrive">
+                    <input list="villes" type="text" name="" id="" placeholder="Depart">
+                    <datalist id="villes">
+                        <option value="Casablanca">
+                        <option value="Agadir">
+                        <option value="Tanger">
+                        <option value="Marrakech">
+                        <option value="Khouribga">
+                    </datalist>
+                    <input list="villes" type="text" name="" id="" placeholder="Arrive">
                     <input type="date" name="" id="" placeholder="Date">
                     <input type="number" min="0" name="" id="" placeholder="Nombre">
                     <input type="submit" value="Mettre a jour">
