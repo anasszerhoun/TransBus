@@ -1,0 +1,176 @@
+.rowOne{
+    margin-left: 40px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+.options label{
+    font-size: 1.1rem;
+    color: #282699;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 35px;
+}
+.options select{
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-left:10px ;
+    height: 40px;
+    width: 80%;
+    border:1px solid black;
+}
+.options input{
+    padding-left: 10px;
+    margin-left:20px ;
+    border-radius: 10px;
+    height: 40px;
+    width: 80%;
+    border:1px solid black;
+}
+
+.rowTwo{
+    margin-top:50px ;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.modal-body2{
+    display: grid;
+    grid-template-columns:50% 40%;
+    gap: 7%;
+}
+.driver{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 50% 40% ;
+    gap: 0px;
+}
+.bus{
+    margin-top: 40px;
+}
+.driver-data{
+    margin-top: 20px;
+}
+.driver i{
+    font-size: 180px;
+    border-right:3px solid black ;
+    border-bottom:3px solid black ;
+    border-left:1px solid black ;
+    border-top:1px solid black ;
+}
+
+.voyage{
+    height: 400px;
+    width: 100%;
+    margin-top:50px ;
+
+}
+.dateVoyage{
+    display: inline;
+    width: 100%;
+    margin-left: 30px;
+}
+.dateVoyage h4 , .dateVoyage p{
+    display: inline;
+}
+.dateVoyage h4{
+    font-weight: 200;
+    font-size: 1.4rem;
+    color: green;
+}
+.dateVoyage p{
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+.barre{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    margin-left:30px;
+    width: 90%;
+    height: 50px;
+}
+.startPoint{
+    width: 20px;
+    position: relative;
+    right: 0;
+    display: flex;
+    float: right;
+    height: 20px;
+    border-radius: 50%;
+    border:2px solid black;
+}
+
+.endPoint{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border:2px solid black;
+}
+._ligne{
+    position:relative;
+    top: 8px;
+    height: 5px;
+    background-color: rgba(0, 0, 0, 0.292);
+}
+
+.Time{
+    height: 100px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.departTime , .arriveeTime{
+    position: relative;
+    top: 40px;
+    width: 100px;
+    padding: 10px;
+    border-radius:20px 0 20px 0;
+}
+.Time .departTime{
+    left: 80px;
+    float: left;
+    height: 50px;
+}
+.Time .arriveeTime{
+    float: right;
+    height: 50px;
+    right: 130px;
+}
+.Time .departTime span, .Time .arriveeTime span{
+    font-size: 1.3rem;
+    position: relative;
+}
+
+.itineraire{
+    height: 100px;
+    width: 100%;
+}
+.villeDepart span, .villeArrivee span{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.villeDepart , .villeArrivee{
+    width: 140px;
+    border-radius: 10px;
+    background-color: #ffc107;
+    position: relative;
+    bottom: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.villeDepart{
+    float: left;
+    left: 70px;
+}
+.villeArrivee{
+    float: right;
+    right: 115px;
+}
+.photo img{
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    margin-left: 20px;
+}

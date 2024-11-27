@@ -1,0 +1,376 @@
+
+body{
+    background-image:url(../images/h.png) ;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100vh;
+}
+a {
+    color: white;
+}
+
+.first nav{
+    height: 15vh;
+    line-height: 15vh;
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(231, 207, 88);
+}
+.container{
+    position:relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    gap: 20px;
+}
+.center{
+    position: relative;
+    bottom: 180px;
+}
+
+.formulaire{
+    background-color: rgba(17, 0, 255, 0.128);
+    height: 55vh;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+.formulaire input{
+    width: 90%;
+    height: 50px;
+    margin: 8px 6px 5px 12px;
+    padding: 3px;
+}
+.formulaire input[type='submit']{
+    width: 50%;
+    height: 40px;
+    margin-left: 20%;
+    background-color: #ffc107;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    border-color: rgb(143, 136, 136);
+}
+.one {
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    border-radius:10px;
+}
+.one:first-child{
+    margin-top: 0;
+}
+.TWO{
+    position: relative;
+}
+.one .up{
+    position: relative;
+    top: 1.4rem;
+    width: 98%;
+    height: 3.12rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.up .prix{
+    border: 2px solid rgb(220, 18, 18) ;
+    padding: 3px;
+    background-color:rgb(220, 18, 18) ;
+    border-radius: 50% 0 45% 0;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-right:2.2rem ;
+}
+.up .heure{
+    color: rgb(255, 193, 7);
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.one .down{
+    width: 98%;
+    height: 3.12rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.down .reserver{
+    border: 2px solid #282699;
+    padding: 5px 20px;
+    background-color: #282699;
+    color: white;
+    margin-right: 1.5rem;
+    border-radius:10px ;
+
+}
+.down h3{
+    font-weight: 800;
+    font-size: 1.4rem;
+    margin-left: 1.5rem;
+}
+.down h3{
+    border:2px solid #ffc107;
+    border-radius: 10px 0;
+    padding: 4px;
+    font-size: 1rem;
+    background-color: #ffc107;
+    margin-left: 4rem;
+}
+.Time{
+    display: flex;
+    align-items: center;
+    margin-left: 1.3rem;
+}
+.down i{
+    margin: 0 1rem;
+}
+.duree{
+    margin: 0 1.3rem;
+    color: rgb(143, 136, 136,0.5);
+}
+.footer {
+    height: 20vh;
+    width: 100vw;
+    background-color:black;
+    margin-top: 10%;
+    color: white;
+}
+
+.adresse {
+    padding-top: 4%;
+}
+
+b .adresse a {
+    text-decoration: none;
+}
+
+.adresse a:hover {
+    color: yellowgreen;
+}
+
+.adresse i {
+    margin-left: 5%;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+.buses{
+    position: relative;
+    display: block;
+}
+
+.form {
+    width: 40%;
+    height: 120vh;
+    margin-right: auto;
+    margin-left: 30%;
+    margin-top: 2%;
+    margin-bottom: 200px;
+    background-color: rgb(255, 255, 255);
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 4px 5px 10px rgb(0, 0, 0);
+    padding:35px ;
+}
+.center {
+    margin-top: 100px;
+}
+.form input{
+    padding: 25px 10px;
+}
+
+.form .info{
+    margin-top: 25px;
+}
+.form h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #282699;
+    margin-bottom: 30px;
+}
+.form .submit{
+    padding: 10px 25px;
+    float:right ;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-right: 20px;
+    font-size: 0.9rem;
+    margin-top: 50px;
+}
+
+.first-info{
+    display: block;
+}
+.second-info{
+    display: none;
+}
+#next{
+    color: black;
+}
+.form .previous{
+    padding: 10px 25px;
+    float:left;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 45px;
+}
+.num{
+    display: flex;
+}
+.num i{
+    font-size: 2rem;
+    position: relative;
+    right:100px;
+    top:10px;
+    margin:0px 2.5px
+}
+.icons{
+    display:flex;
+    width: 100px;
+}
+.card-info{
+    display: flex;
+}
+.card-info div{
+    width: 40%;
+}
+.cd div:nth-child(2){
+    margin-left: 25px;
+}
+.logo a img{
+    width: 175px;
+}
+.logo{
+    position: relative;
+    bottom: 120px;
+    left: 40px;
+}
+.progression{
+    width: 80px;
+    height: 50px;
+    position: relative;
+    float: right;
+    bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.progression .active{
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 0 10px;
+    background-color: #ffc107;
+}
+.progression .noActive{
+    width: 12px;
+    height:12px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 4px 0 2px 0;
+
+}
+.bus{
+    margin-top: 50px;
+    width: 350px;
+    padding: 8px;
+    height: 800px;
+    margin-left: 10%;
+    display: none;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+.bus .ligne{
+    width:  100%;
+    height: 50px;
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: 40% 40%;
+    gap: 20%;
+
+}
+.ligne .col1{
+    display: flex;
+    color:#282699
+}
+
+.ligne .col2{
+    display: flex;
+    color:#ffc107;
+}
+.second-info, .third-info{
+    display: none;
+}
+
+.setOne{
+    width: 50px;
+    position: relative;
+    border-radius:20px;
+    right: 0;
+    height: 50px;
+    justify-content: center;
+    margin-left:  15px;
+    padding: 5px 17px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+.setTwo{
+    width: 50px;
+    border-radius:20px;
+    height: 50px;
+    justify-content: center;
+    margin-left:10px;
+    padding: 5px 17px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+.activeSet{
+    background-color: indigo!important;
+    color: white;
+}
+.setAvailable
+{
+    background-image: url(../images/seat.png);
+
+    background-color: green;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.setInAvailable{
+    background-image: url(../images/seat.png);
+    background-color:rgba(red, green, blue, 0.5);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.redMessage{
+    color: red;
+}

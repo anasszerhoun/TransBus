@@ -1,0 +1,233 @@
+                        *{
+                            margin: 0;
+                            padding: 0;
+                        }
+                        a {
+                            color: white;
+                        }
+
+                        .first {
+                            background-image: url(../images/back.png);
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            height: 100vh;
+                            /* Trumpwallpapers\ -\ Bus\ Wallpaper\ 38\ \(1920×1200\)\ \(1\).jpeg */
+                        }
+                        .first nav{
+                            height: 15vh;
+                            line-height: 15vh;
+                        }
+
+                        .navbar-nav .nav-link {
+                            color: black;
+                            font-weight: bold;
+                            font-size: 1.1rem;
+                            color: white;
+                        }
+
+                        .form {
+                            position: relative;
+                            width: 30%;
+                            height: 50vh;
+                            margin-right: auto;
+                            margin-left: 8%;
+                            background-color: rgba(17, 0, 255, 0.128);
+                            padding: 1%;
+                            border-radius: 3px;
+                            box-shadow: 4px 5px 10px rgb(0, 0, 0);
+                        }
+
+                        .center {
+                            position: relative;
+                            bottom: 150px;
+                            margin-top: 100px;
+                        }
+
+                        h2 {
+                            font-size: 2em;
+                            font-weight: 700;
+                            color: #282699;
+                        }
+
+                        .footer {
+                            height: 20vh;
+                            width: 100vw;
+                            background-color: #282699;
+                            margin-top: 10%;
+                            color: white;
+                        }
+
+                        .adresse {
+                            padding-top: 4%;
+                        }
+
+                        b .adresse a {
+                            text-decoration: none;
+                        }
+
+                        .adresse a:hover {
+                            color: yellowgreen;
+                        }
+
+                        .adresse i {
+                            margin-left: 5%;
+                            justify-content: space-between;
+                            padding: 2px;
+                        }
+
+                        .navbar-brand {
+                            font-weight: bold;
+                        }
+
+                        .navbar-brand:hover {
+                            color: white;
+                        }
+
+                        .nav-link:hover {
+                            color: rgb(231, 207, 88);
+                        }
+
+                        .wifi-img {
+                            width: 7rem;
+                            height: 3%;
+                            margin-top: 2%;
+                            margin-left: 9.5rem;
+                        }
+
+                        .plansText {
+                            margin-top: 10%;
+                        }
+
+                        .plans {
+                            margin-left: 7%;
+                        }
+
+                        .btn {
+                            width: 15vw;
+                            margin: auto;
+                        }
+
+                        .card h4 {
+                            margin: auto;
+                            margin-bottom: 20px;
+                            padding-bottom: 2em;
+                            font-size: 1.3rem;
+                            color: white;
+                            padding: 10px;
+                            background-color: rgb(220, 18, 18);
+                            border-radius: 0 20px 0 20px;
+                        }
+
+                        .fas {
+                            font-size: 5rem;
+                        }
+
+                        .fas:first-child {
+                            padding-left: 12rem;
+                        }
+
+                        .fas:last-child {
+                            padding-right: 10rem;
+                        }
+
+                        .ser {
+                            width: 8rem;
+                        }
+
+                        .ser:first-child {
+                            margin-left: 10rem;
+                        }
+
+                        .ser:last-child {
+                            margin-right: 10rem;
+                        }
+
+                        .btn {
+                            margin: auto;
+                        }
+
+                        .card {
+                            box-shadow: 1px 1px 6px black;
+                        }
+                        .propos{
+                            width: 60%;
+                            background-color: #1411afb4;
+                            color: white;
+                            float: left;
+                            margin-left: 6%;
+                            border-radius: 20px;
+                        }
+                        .add{
+                            position: relative;
+                            bottom: 200px;
+                            width: 50%;
+                            height: 40vh;
+                            background-color: #282699;
+                            margin-left: 150px;
+                            border-radius: 20px;
+                            display: grid;
+                            grid-template-columns: 30% 70%;
+                            margin-top: 150px;
+                        }
+                        .validate{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: 100%;
+                            border-radius: 20px 0 0 20px;
+                        }
+                        .validate i{
+                            font-size: 10rem;
+                        }
+                        .ticket{
+                            height: 40vh;
+                            padding: 40px;
+                            text-align: center;
+                        }
+                        .ticket h3{
+                            font-weight: bold;
+                            color: white;
+                            position: relative;
+                            right: 20px;
+                            top: 25px;
+                        }
+                        .ticket a{
+                            text-decoration: none;
+                        }
+                        .ticket span{
+                            position: relative;
+                            top: 70px;
+                            /* left: 45px; */
+                            right:  60px;
+                            padding: 20px;
+                            background-color:#ffc107;
+                            margin-left: 80px;
+                            border-radius: 10px;
+                        }
+                        .ticket span a{
+                            color: black;
+                            font-weight: bold;
+                            font-size: 1.2rem;
+                        }
+                        .ticket span:hover{
+                            background-color:#ffc10792;
+                            cursor: pointer;
+                        }
+                        .logo a img{
+                            width: 175px;
+                        }
+                        .logo{
+                            position: relative;
+                            bottom: 120px;
+                            left: 40px;
+                        }
+                        .messagerie{
+                            position: relative;
+                            height: 25vh;
+                            bottom: 100px;
+                        }
+                        input[type="date"]{
+                            margin-left: 20px;
+                        }
+
+

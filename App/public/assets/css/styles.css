@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    min-height: 100vh; /* Ensure the wrapper takes up the full height of the viewport */
+}
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #222467;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-nav {
+    padding: 1px;
+    flex: 1 1 auto;
+}
+
+a.sidebar-link {
+    padding: .600rem 1.635rem;
+    color: #FFF;
+    display: block;
+    font-size: 0.7rem;
+    white-space: nowrap;
+    border-left: 3px solid transparent;
+}
+
+.sidebar-link i {
+    font-size: 1.1rem;
+    margin-right: .75rem;
+}
+
+a.sidebar-link:hover {
+    background-color: rgba(255, 255, 255, .075);
+    border-left: 3px solid #ddbd3b;
+}
+
+a.sidebar-link.active {
+    background-color: rgba(255, 255, 255, .075);
+    border-left: 3px solid #ddbd3b;
+}
+
+.main {
+    margin-left: 200px;
+    padding: 20px;
+    flex: 1; 
+    background-color: #e1e2e4;
+}
+
+.main-content {
+    height: 100%; /* Ensure the content area takes up the full height */
+    overflow-y: auto;
+}
+
+#status {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-box {
+    padding: 0.3rem 1rem;
+    border-left: 4px solid;
+    margin: 1rem;
+    flex-basis: 210px;
+    border-radius: 5px;
+    box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.25);
+    background-color: white;
+}
+
+.heading h5 {
+    color: white;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    flex-basis: 100%;
+    border-radius: 10px;
+    margin: 0.5rem 0;
+}
+
+.info-box p {
+    margin: 0;
+}
+
+.info-content {
+    margin-bottom: 1rem;
+}
+
+.info-content .num {
+    font-size: 1.5rem;
+}
+
+.info-box a {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#Booking {
+    border-color: #3e93d9;
+}
+
+#Booking h5 {
+    background-color: #3e93d9;
+}
+
+#Booking a {
+    color: #3e93d9;
+}
+
+#Earning {
+    border-color: #23bf29;
+}
+
+#Earning a {
+    color: #23bf29;
+}
+
+#Bus {
+    border-color: #009688;
+}
+
+#Bus h5 {
+    background-color: #009688;
+}
+
+#Bus a {
+    color: #009688;
+}
+
+#Route {
+    border-color: #f44336;
+}
+
+#Route h5 {
+    background-color: #f44336;
+}
+
+#Route a {
+    color: #f44336;
+}
+
+#Seat {
+    border-color: #A66314;
+}
+
+#Seat h5 {
+    background-color: #A66314;
+}
+
+#Seat a {
+    color: #A66314;
+}
+
+#Customer {
+    border-color: #2D2B28;
+}
+
+#Customer h5 {
+    background-color: #2D2B28;
+}
+
+#Customer a {
+    color: #2D2B28;
+}
+
+#Earning h5 {
+    background-color: #23bf29;
+}
+
+@media only screen and (min-width:1000px) {
+    #main-content {
+        flex-grow: 1;
+    }
+
+    .info-box {
+        flex-basis: 220px;
+    }
+}
