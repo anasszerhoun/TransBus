@@ -1,0 +1,12 @@
+frontend:
+    path: App
+    publish: dist
+    scripts:
+        build:
+            - npm run build
+        deploy:
+            - npm install
+    subdomain: salmon-civic-ocelot
+name: salmon-civic-ocelot
+region: eu-central-1
+yamlVersion: 2
